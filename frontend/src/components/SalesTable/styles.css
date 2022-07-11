@@ -1,0 +1,43 @@
+.dsmeta-sales-table {
+  width: 100%;
+  border-spacing: 0;
+  border-collapse: collapse;
+}
+
+.show576 {
+  display: none;
+}
+
+@media (min-width: 576px) {
+  .show576 {
+    display: table-cell;
+  }
+  .dsmeta-card {
+    padding: 30px 22px;
+  }
+
+  .dsmeta-sales-table tbody {
+    font-size: 16px;
+  }
+
+  .dsmeta-sales-table body tr {
+    height: 55px;
+  }
+}
+
+.show992 {
+  display: none;
+}
+
+@media (min-width: 992px) {
+  .dsmeta-card {
+    padding: 30px 35px;
+  }
+
+  .dsmeta-sales-table tbody {
+    font-size: 18px;
+  }
+  .show992 {
+    display: table-cell;
+  }
+}

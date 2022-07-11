@@ -1,7 +1,11 @@
+import { Header } from "./components/Header"
+import { Sales } from "./components/Sales"
+
 function App() {
   return (
     <div>
-      <h1>bom dia</h1>
+      <Header />
+      <Sales />
     </div>
   )
 }

@@ -1,0 +1,15 @@
+.dsmeta-form-control-container {
+  margin-bottom: 16px;
+  max-width: 300px;
+}
+
+.dsmeta-form-control {
+  width: 100%;
+  height: 46px;
+  background-color: #1b2531;
+  color: #9aaabe;
+  font-size: 18px;
+  border: 1px solid #384459;
+  border-radius: 5px;
+  padding: 0 20px;
+}
